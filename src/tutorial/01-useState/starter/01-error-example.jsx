@@ -1,5 +1,17 @@
 const ErrorExample = () => {
-  return <h2>useState error example</h2>;
+  let counter = 0;
+
+  const handleCounter = () => {
+    counter = counter + 1;
+    console.log(counter);
+  }
+  
+  return (
+    <div>
+      <p>{counter}</p>
+      <button style={{ padding: "10px 20px" }} onClick={handleCounter}>Click Me</button>
+    </div>
+  );
 };
 
 export default ErrorExample;

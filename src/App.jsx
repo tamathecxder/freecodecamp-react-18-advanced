@@ -1,9 +1,11 @@
 import './App.css'
+// import Starter from './tutorial/01-useState/starter/02-useState-basics';
+import Starter from "./tutorial/01-useState/starter/01-error-example";
 
 function App() {
   return (
     <div className="container">
-      <h1>Advanced React</h1>
+      <Starter />
     </div>
   )
 }
