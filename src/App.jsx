@@ -2,7 +2,9 @@ import './App.css'
 
 function App() {
   return (
-    <h1>Hello, Vite</h1>
+    <div className="container">
+      <h1>Advanced React</h1>
+    </div>
   )
 }
 
