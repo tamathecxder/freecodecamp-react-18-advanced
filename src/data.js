@@ -5,7 +5,7 @@ export const data = [
   { id: 4, name: 'anna' },
 ];
 
-export const people = [
+export const peoples = [
   { id: 1, name: 'bob', nickName: 'Stud Muffin' },
   { id: 2, name: 'peter' },
   {
