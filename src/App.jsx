@@ -1,10 +1,10 @@
 import './App.css'
-import MultipleEffects from  './tutorial/02-useEffect/starter/03-multiple-effects';
+import FetchingData from  './tutorial/02-useEffect/starter/04-fetch-data';
 
 function App() {
   return (
     <div className="container">
-      <MultipleEffects />
+      <FetchingData />
     </div>
   )
 }
