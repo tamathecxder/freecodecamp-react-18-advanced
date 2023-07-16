@@ -1,11 +1,10 @@
 import './App.css'
-import Starter from './tutorial/01-useState/starter/04-useState-object';
-import Gotcha from  './tutorial/01-useState/starter/05-useState-gotcha';
+import Example from  './tutorial/02-useEffect/starter/01-code-example';
 
 function App() {
   return (
     <div className="container">
-      <Gotcha />
+      <Example />
     </div>
   )
 }
