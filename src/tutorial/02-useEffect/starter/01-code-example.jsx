@@ -1,17 +1,15 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const CodeExample = () => {
   const [value, setValue] = useState(0);
 
-  const sayHello = () => {
+  const regularFunc = () => {
     console.log("Hello, World!");
+
+    setValue(value + 1);
   };
 
-  sayHello();
-
-  useEffect(() => {
-    console.log('hello from useEffect');
-  }, []);
+  regularFunc();
 
   return (
     <div>
