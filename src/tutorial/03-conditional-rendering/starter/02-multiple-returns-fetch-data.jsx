@@ -43,15 +43,17 @@ const MultipleReturnsFetchData = () => {
     return <h2>There Was An Error...</h2>
   }
 
+  const { avatar_url, name, company, bio } = user;
+  
   return (
     <div className="mtfd-wrapper">
       <h1>Fetch Data</h1>
 
-      <img src={user.avatar_url} alt="mtfd image" />
-      <h2>{user.name}</h2>
-      <h3>Works At {user.company}</h3>
+      <img src={avatar_url} alt={name} />
+      <h2>{name}</h2>
+      <h3>Works At {company}</h3>
       <p>
-        {user.bio}
+        {bio}
       </p>
     </div>
   );
