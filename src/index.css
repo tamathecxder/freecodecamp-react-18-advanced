@@ -48,7 +48,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: -webkit-focus-ring-color;
 }
 button:focus,
 button:focus-visible {
@@ -67,11 +67,11 @@ button:focus-visible {
   transition: border-color 0.25s;
 }
 .btn:hover {
-  border-color: #646cff;
+  border-color: -webkit-focus-ring-color;
 }
 .btn:focus,
 .btn:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: none;
 }
 
 .gh-container {
