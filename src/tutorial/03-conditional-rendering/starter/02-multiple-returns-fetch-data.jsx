@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../../../assets/css/multiple_returns.css";
+import "../../../assets/css/tutorial.css";
 
 const url = "https://api.github.com/users/QuincyLarson";
 
