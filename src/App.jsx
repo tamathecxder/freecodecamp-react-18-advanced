@@ -1,10 +1,10 @@
 import './App.css'
-import MutlipleReturnFetch from  './tutorial/03-conditional-rendering/starter/02-multiple-returns-fetch-data';
+import ToggleChallenge from  './tutorial/03-conditional-rendering/starter/06-toggle-challenge'
 
 function App() {
   return (
     <div className="container">
-      <MutlipleReturnFetch />
+      <ToggleChallenge />
     </div>
   )
 }
