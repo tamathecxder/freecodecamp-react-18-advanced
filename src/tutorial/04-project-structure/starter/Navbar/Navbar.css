@@ -1,0 +1,8 @@
+nav {
+    height: 6.25rem;
+    width: 100%;
+    padding: 1.25rem;
+    background-color: aquamarine;
+    display: flex;
+    place-items: center;
+}
